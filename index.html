@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- Bootstrap CSS File -->
+        <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <title>Portfolio responsive complete</title>
+    </head>
+    <body>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">‸</button>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#about" class="nav__logo">Isanjalee Silva</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#Projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>HE</span><br>LLO.</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="assets/img/perfil.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/perfil.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'am Isanjalee Silva</h2>
+                        <span class="about__profession">UI/UX designer</span>
+                        <p class="about__text">Bachelor of Information Technology in Information & Management in Undergraduate of University of Moratuwa. 
+                          A passionate,hardworking, energetic and self-motivated information technology undergraduate with proven leadership skills.</p>
+
+                        <div class="about__social">
+                            <a href="https://www.linkedin.com/in/isanjalee-silva-a4a3711b3/" target="self" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="https://github.com/Isanjalee"  target="self" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                            <a href="https://dribbble.com/Isanjalee"  target="self" class="about__social-icon"><i class='bx bxl-dribbble' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Development</h3>
+                        <span class="skills__name">Html</span>
+                        <span class="skills__name">Css</span>
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__name">Scss</span>
+                        <span class="skills__name">React</span>
+                       
+                        
+                        <h3 class="skills__subtitle">Design</h3>
+                        <span class="skills__name">Figma</span>
+                        <span class="skills__name">Adobe XD</span>
+                        <span class="skills__name">Photoshop</span>
+                        <span class="skills__name">Illustrator</span>
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/skill.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--/ Section Projects Star /-->
+            <section class="Projects section" id="Projects">
+              <h2 class="section-title">Projects</h2>
+
+              
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="title-box text-center">
+                      <nbsp></nbsp>
+
+                        <p class="subtitle-a">
+                          Software and hardware projects.</br>
+                        </p>
+                        <div class="line-mf"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card card-blog">
+                        <div class="card-img">
+                          <img src="img/post-1.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                          <div class="card-category-box">
+                            <div class="card-category">
+                              <h6 class="category">Smart Mail Box</h6>
+                            </div>
+                          </div>
+                          <h3 class="card-title">(Undergraduate  Level 1 group hardware project)</h3>
+                          <p class="card-description">
+                            <h6 class="category">Jan 2020-2021</h6>
+                            Developed an automated letterbox that notifies a letter is
+                            received in the letterbox, so that it minimizes the human
+                            intervention for the process, at the same time it works as
+                            a security system. Through this project, learned about
+                            micro-controllers, Key Pads and PCB designing.
+                          </p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card card-blog">
+                        <div class="card-img">
+                          <img src="img/post-2.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                          <div class="card-category-box">
+                            <div class="card-category">
+                              <h6 class="category">Service Provider App</h6>
+                            </div>
+                          </div>
+                          <h3 class="card-title">(Undergraduate  Level 2 group software project)</h3>
+                          <p class="card-description">
+                            <h6 class="category">Sep 2021- 2022</h6>
+                            This project aims to develop a mobile application to
+                            connect clients and service providers to accomplish
+                            day-to day house chores like cleaning, plumbing, and
+                            painting easily and securely. This application's service
+                            provider's user interface was designed by me.
+                          </p>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card card-blog">
+                        <div class="card-img">
+                          <img src="img/post-3.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                          <div class="card-category-box">
+                            <div class="card-category">
+                              <h6 class="category">Karathe Digital Class App</h6>
+                            </div>
+                          </div>
+                          <h3 class="card-title">Sensei Karate - Mobile Application</h3>
+                          <p class="card-description">
+                            <h6 class="category">April 2022 - December 2022</h6>
+                            The purpose of this project is to create a mobile application for sensei karate institution.
+                            This application makes it easy and secure to learn about karate lessons,
+                            karate tournaments, learn class information, pay tuition fees, and communicate.
+                          </p>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+              <!--/ Section Blog End /-->
+
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Portfolio</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                       <img src="assets/img/work01.jpg" alt="01">
+
+                       <div class="portfolio__link">
+                        <a href="assets/img/work01.jpg" target="self" class="port__link">Sensei Karate application User Interface</a>
+                       </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work02.jpg" alt="02">
+
+                        <div class="portfolio__link">
+                          <a href="assets/img/work02.jpg" target="self" class="port__link">Simple signup login user interface</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work03.jpg" alt="03">
+
+                        <div class="portfolio__link">
+                          <a href="assets/img/work03.jpg" target="self" class="port__link">Servicr - service provider dashboard </br>user interfae</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work1.jpg" alt="1">
+
+                        <div class="portfolio__link">
+                          <a href="assets/img/work1.jpg" target="self" class="port__link">Poojabhiwandana 2021 Wesak Art </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work2.jpg" alt="2">
+
+                        <div class="portfolio__link">
+                          <a href="assets/img/work2.jpg" target="self" class="port__link">Sakura</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work3.jpg" alt="3">
+
+                        <div class="portfolio__link">
+                          <a href="assets/img/work3.jpg" target="self" class="port__link">Yakaduru </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work4.jpg" alt="4">
+
+                        <div class="portfolio__link">
+                          <a href="assets/img/work4.jpg" target="self" class="port__link">Illustrater drawing - Honey</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work5.jpg" alt="5">
+
+                        <div class="portfolio__link">
+                          <a href="assets/img/work5.jpg" target="self" class="port__link">My Illustrater Drawing</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work6.jpg" alt="6">
+
+                        <div class="portfolio__link">
+                          <a href="assets/img/work6.jpg" target="self" class="port__link">Illustrater drawing - purple shade</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work7.jpg" alt="7">
+
+                        <div class="portfolio__link">
+                          <a href="assets/img/work7.jpg" target="self" class="port__link">The Hockey Stick</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work8.jpg" alt="8">
+
+                        <div class="portfolio__link">
+                          <a href="assets/img/work8.jpg" target="self" class="port__link">Modern Lady</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work9.jpg" alt="9">
+
+                        <div class="portfolio__link">
+                          <a href="assets/img/work9.jpg" target="self" class="port__link">Sun & Moon</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                      <img src="assets/img/work10.jpg" alt="10">
+
+                      <div class="portfolio__link">
+                        <a href="assets/img/work10.jpg" target="self" class="port__link">Pencil Art</a>
+                      </div>
+                  </div>
+                  <div class="portfolio__img">
+                      <img src="assets/img/work11.jpg" alt="11">
+
+                      <div class="portfolio__link">
+                        <a href="assets/img/work11.jpg" target="self" class="port__link">Lines</a>
+                      </div>
+                  </div>
+                  <div class="portfolio__img">
+                      <img src="assets/img/work12.jpg" alt="12">
+
+                      <div class="portfolio__link">
+                        <a href="assets/img/work12.jpg" target="self" class="port__link">The Frame</a>
+                  </div>
+                  </div>
+                  <div class="portfolio__img">
+                    <img src="assets/img/work13.jpg" alt="13">
+
+                    <div class="portfolio__link">
+                      <a href="assets/img/work13.jpg" target="self" class="port__link">Bottle craft</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/work14.jpg" alt="14">
+
+                    <div class="portfolio__link">
+                      <a href="assets/img/work14.jpg" target="self" class="port__link">Poojabhiwandana 2020 Wesak Art</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/work15.jpg" alt="15">
+
+                    <div class="portfolio__link">
+                      <a href="assets/img/work15.jpg" target="self" class="port__link">Ocean</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                  <img src="assets/img/work16.jpg" alt="16">
+
+                  <div class="portfolio__link">
+                    <a href="assets/img/work16.jpg" target="self" class="port__link">Illustrater drawing</a>
+                  </div>
+              </div>
+              <div class="portfolio__img">
+                  <img src="assets/img/work17.jpg" alt="17">
+
+                  <div class="portfolio__link">
+                    <a href="assets/img/work17.jpg" target="self" class="port__link">Illustrater drawing</a>
+                  </div>
+              </div>
+              <div class="portfolio__img">
+                  <img src="assets/img/work18.jpg" alt="18">
+
+                  <div class="portfolio__link">
+                    <a href="assets/img/work18.jpg" target="self" class="port__link">Pencil Art</a>
+                  </div>
+              </div>
+                </div>
+            </section>
+            
+   
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">ihnjmsilva@gmail.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+94 71-923-5115</span>
+
+                        <h3 class="contact__subtitle">ADRESS</h3>
+                        <span class="contact__text">Panadura Sri Lanka</span>
+                    </div>
+
+                    <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+                      <div class="form-group">
+                        <div class="form-row">
+                          <div class="col">
+                            <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                          </div>
+                          <div class="col">
+                            <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+                    </form>
+                    
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">ISANJALEE SILVA</h2>
+                    <p class="footer__titalsub">I'm Isanjalee Silva and this is my personal website</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#Projects" class="footer__link">Projects</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="https://www.facebook.com/harini.nethmi.3" target="self" class="footer__social"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://www.instagram.com/harini498/" target="self" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://twitter.com/AIHNSilva1" target="self" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+                </div>
+
+
+            </div>
+          
+        </footer>
+      </br>
+      <p class="footer__copy">&#169; 2022 Isanjalee Silva. All right reserved</p>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
