@@ -334,16 +334,15 @@ img{
     border-radius: .5rem;
     cursor: pointer;
     backdrop-filter: blur(10px);
-    transition: .3s;
+    transition: .2s;
     
 }
 .portfolio__img:hover .portfolio__link{
     bottom: 0;
-    text-decoration: none;
+
 }
 .portfolio__link-name{
- 
-    text-decoration: none;
+     text-decoration: none;
 }
 
 
@@ -615,9 +614,7 @@ img{
         grid-template-columns: repeat(3, 2fr);
         justify-items: center;
     }
-}
     .port__link{
-        padding: .25rem 0;
         color: rgb(77, 77, 77);
     }
     .port__link:hover{
@@ -626,6 +623,8 @@ img{
         text-decoration: none;
     }
 
+}
+   
 
 @media screen and (min-width: 1024px){
     .bd-grid{
