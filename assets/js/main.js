@@ -91,20 +91,19 @@ sr.reveal('.skills__img', {delay: 400})
 /*SCROLL Projects*/
 sr.reveal('.card-title', {})
 sr.reveal('.card-description', {distance: '20px', delay: 200, interval: 200})
-sr.reveal('.img-fluid', {delay: 200, interval: 200})
-sr.reveal('.category', {delay: 400, interval: 200})
-sr.reveal('.card-body', {delay: 50, interval: 200})
-sr.reveal('.subtitle-a', {delay: 500, interval: 200})
+sr.reveal('.img-fluid', {delay: 200})
+sr.reveal('.category', {delay: 400 })
+sr.reveal('.card-body', {delay: 50 })
+sr.reveal('.subtitle-a', {delay: 500 })
 
 
 /*SCROLL PORTFOLIO*/
-sr.reveal('.portfolio__img', {interval: 200})
+sr.reveal('.portfolio__img', {delay: 200})
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__subtitle', {})
-sr.reveal('.contact__text', {interval: 200})
-sr.reveal('.contact__input', {delay: 400})
-sr.reveal('.contact__button', {delay: 600})
+sr.reveal('.contact__input', {delay: 100})
+sr.reveal('.contact__button', {delay: 200})
 
 sr.reveal('.form-group', {delay: 600})
 sr.reveal('.btn btn-lg btn-dark btn-block', {delay: 600})
@@ -112,7 +111,7 @@ sr.reveal('.btn btn-lg btn-dark btn-block', {delay: 600})
 
 // jQuery counterUp (used in Whu Us section)
 $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1000
+    delay: 7,
+    time: 700
   });
 
