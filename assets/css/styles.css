@@ -191,7 +191,7 @@ img{
 }
 
 /*Active menu*/
-.active::after{
+.active:after{
     position: absolute;
     content: "";
     width: 100%;
@@ -229,7 +229,8 @@ img{
     transform: rotate(-180deg);
     color: var(--white-color);
 
-}.home__scroll-link:hover{
+}
+.home__scroll-link:hover{
         color: rgb(255, 255, 255);
         text-decoration: none;
 }
@@ -239,6 +240,7 @@ img{
     bottom: 0;
     width: 295px;
 }
+
 
 /* ===== ABOUT =====*/
 .about__container{
@@ -280,6 +282,7 @@ img{
     text-decoration: none;
 }
 
+
 /* ===== SKILLS =====*/
 .skills__container{
     row-gap: 2rem;
@@ -305,6 +308,7 @@ img{
 .skills__img img{
     border-radius: .5rem;
 }
+
 
 /* ===== PORTFOLIO =====*/
 .portfolio{
@@ -334,21 +338,23 @@ img{
     border-radius: .5rem;
     cursor: pointer;
     backdrop-filter: blur(10px);
-    transition: .2s;
+    transition: .3s;
     
 }
 .portfolio__img:hover .portfolio__link{
     bottom: 0;
-
+    text-decoration: none;
 }
 .portfolio__link-name{
-     text-decoration: none;
+ 
+    text-decoration: none;
 }
 
 
 /* ===== CONTACT =====*/
 .contact__container{
     row-gap: 2rem;
+    
 }
 .contact__subtitle{
     font-size: var(--normal-font-size);
@@ -357,6 +363,7 @@ img{
 .contact__text{
     display: inline-block;
     margin-bottom: var(--mb-2);
+    
 }
 .contact__inputs{
     display: grid;
@@ -384,6 +391,8 @@ img{
     font-size: var(--normal-font-size);
     cursor: pointer;
 }
+
+
 /* ===== FOOTER=====*/
 .footer{
     background-color: var(--dark-color);
@@ -419,9 +428,8 @@ img{
 }.footer__copy{
     color: rgb(0, 0, 0);
     text-align: center;
-
-
-}.card-blog .card-body {
+}
+.card-blog .card-body {
     position: relative;
 }
   
@@ -563,7 +571,7 @@ img{
         color: var(--white-color);
         text-decoration: none;
     }
-    .active::after{
+    .active:after{
         background-color: var(--white-color);
     }
 
@@ -614,7 +622,9 @@ img{
         grid-template-columns: repeat(3, 2fr);
         justify-items: center;
     }
+}
     .port__link{
+        padding: .25rem 0;
         color: rgb(77, 77, 77);
     }
     .port__link:hover{
@@ -623,8 +633,6 @@ img{
         text-decoration: none;
     }
 
-}
-   
 
 @media screen and (min-width: 1024px){
     .bd-grid{
