@@ -286,19 +286,22 @@ img{
 /* ===== SKILLS =====*/
 .skills__container{
     row-gap: 2rem;
+    /* column-gap: 2rem; */
 }
 .skills__subtitle{
     color: var(--first-color);
     margin-bottom: var(--mb-3);
 }
 .skills__name{
-    display: inline-block;
+    display:inline-block;
+    /* block-size: 15rem 7rem; */
     font-size: var(--small-font-size);
-    margin-right: var(--mb-2);
+    margin-right: var(--mb-3);
     margin-bottom: var(--mb-3);
-    padding: .25rem .5rem;
-    background-color: var(--white-color);
+    padding: .20rem .5rem;
+    /* background-color: var(--white-color); */
     border-radius: .25rem;
+    text-align: center;
 }
 .skills__name:hover{
     background-color: var(--first-color);
@@ -651,3 +654,4 @@ img{
         right: 24%;
     }
 }
+
