@@ -294,12 +294,12 @@ img{
 }
 .skills__name{
     display:inline-block;
-    /* block-size: 15rem 7rem; */
+    block-size: 15rem 7rem;
     font-size: var(--small-font-size);
     margin-right: var(--mb-3);
     margin-bottom: var(--mb-3);
     padding: .20rem .5rem;
-    /* background-color: var(--white-color); */
+    background-color: var(--white-color);
     border-radius: .25rem;
     text-align: center;
 }
