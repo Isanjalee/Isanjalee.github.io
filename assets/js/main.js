@@ -98,7 +98,7 @@ sr.reveal('.subtitle-a', {delay: 500 })
 
 
 /*SCROLL PORTFOLIO*/
-sr.reveal('.portfolio__img', {delay: 200})
+sr.reveal('.portfolio__img', {delay: 2000})
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__subtitle', {})
